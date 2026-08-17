@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CUTE LOGIN FORM</title>
+    <style>
+      body {
+        background-color: pink;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .login {
+        background-color: whitesmoke;
+        width: 300px;
+        padding: 30px;
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 0 5px 15px plum;
+      }
+
+      h2 {
+        color: rgb(212, 121, 189);
+      }
+
+      .cute {
+        font-size: 30px;
+      }
+      label {
+        display: block;
+        text-align: left;
+        margin-top: 15px;
+        color: rgb(113, 153, 206);
+      }
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid rgb(67, 67, 126);
+        border-radius: 10px;
+      }
+      botton {
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: rgb(123, 15, 190);
+        color: rgb(92, 160, 219);
+        border: none;
+        border-radius: 10px;
+        font-size: 16px;
+      }
+      button:hover {
+        background-color: azure;
+      }
+      p {
+        color: rgb(60, 33, 213);
+      }
+
+      a {
+        color: rgb(177, 227, 147);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="login">
+      <div class="cute"></div>
+      <h2>Welcome Back</h2>
+      <p>Please Login</p>
+
+      <form>
+        <label for="email">email</label>
+        <input type="email" placeholder="enter your email" id="email" />
+
+        <label>PASSWORD</label>
+        <input type="password" placeholder="enter your password" />
+
+        <button type="submit">login</button>
+      </form>
+      <p>
+        don't have an account?
+        <a href="#">sign up</a>
+      </p>
+    </div>
+  </body>
+</html>
