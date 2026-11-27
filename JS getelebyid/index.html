@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Practice</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h2>DOM Manipulation Practice</h2>
+
+  <!-- 1. Change text -->
+  <section>
+    <p id="message">Hi</p>
+    <button onclick="changeMessage()">Change Text</button>
+  </section>
+
+  <!-- 2. Change color -->
+  <section>
+    <p id="title">This is the title paragraph.</p>
+    <button onclick="setColor('red')">Red</button>
+    <button onclick="setColor('blue')">Blue</button>
+  </section>
+
+  <!-- 3. Current date and time -->
+  <section>
+    <p id="date">Click the button to see the date and time.</p>
+    <button onclick="showDate()">Show Date &amp; Time</button>
+  </section>
+
+  <!-- 4. Sum of two numbers -->
+  <section>
+    <input type="number" id="num1" placeholder="Number 1">
+    +
+    <input type="number" id="num2" placeholder="Number 2">
+    <button onclick="addNumbers()">Add</button>
+    <p id="result">Sum: </p>
+  </section>
+
+  <!-- 5. Change box background -->
+  <section>
+    <div id="box"></div>
+    <button onclick="changeBoxColor()">Change Box Color</button>
+  </section>
+
+</body>
+</html>
